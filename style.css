@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+    background-color: #ededed;
+}
+
+.carousel {
+    background-color: #fff;
+    box-shadow: 0 0 20px #999;
+    padding: 2%;
+    margin: 40px 0;
+}
+
+.carousel_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel_wrapper ul {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel_nav {
+    padding: 15px 20px;
+    border: 0;
+    background-color: #999;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel_nav:hover {
+    background-color: #333;
+}
+
+.carousel_nav-prev {
+    left: -55px;
+}
+
+.carousel_nav-next {
+    right: -55px;
+}
